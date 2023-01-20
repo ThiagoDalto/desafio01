@@ -50,9 +50,7 @@ E os seguintes comandos abaixo:
     pnpm create vite my-vue-app --template vue 
 
 
-## 📦 Implantação
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
