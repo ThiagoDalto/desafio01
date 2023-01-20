@@ -7,7 +7,7 @@ function Results({data, errorMsg}){
     const dias = Object.keys(data)
     const valor = Object.values(data)
     const entries = Object.entries(data)
-    console.log(typeof valor[0])
+    
     return(
         <Result>
             <h2>Você Receberá:</h2>

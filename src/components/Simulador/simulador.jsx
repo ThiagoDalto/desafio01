@@ -37,7 +37,7 @@ function Simulador({ data, setData, setErrorMsg }){
         .post('', dados)
         .then((response) => {
             setData(response.data)
-            console.log(response.data)
+            
             
         })
         .catch((error) => {
