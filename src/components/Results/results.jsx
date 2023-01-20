@@ -1,8 +1,7 @@
 import { Result } from "./resultsStyle";
 
-function Results({ data, errorMsg }) {
-  const dias = Object.keys(data);
-  const valor = Object.values(data);
+function Results({ data }) {
+  
   const entries = Object.entries(data);
 
   return (

@@ -4,7 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { schema } from "../../validators/validateData";
 import api from "../../services/api";
 
-function Simulador({ data, setData, setErrorMsg }) {
+function Simulador({ setData }) {
   const {
     register,
     handleSubmit,
