@@ -1,4 +1,4 @@
-import DefaultValues from "../DefaultValues/defaultValues"
+
 import { Result } from "./resultsStyle"
 
 
