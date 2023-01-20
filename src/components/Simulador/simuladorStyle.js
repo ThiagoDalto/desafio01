@@ -83,7 +83,8 @@ export const Form = styled.form`
     }
 
     @media (min-width: 1000px){
-        width: 100%;
+        width: 25rem;
+        height: 20rem;
         h1{
             font-size: .80rem;
         }

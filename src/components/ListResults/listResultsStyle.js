@@ -28,9 +28,12 @@ export const Results = styled.div`
         color: #87B5F0;
         list-style: none;
     }
-
+    span{
+        font-weight: 700;
+    }
     @media (min-width: 1000px){
-        height: 17.5rem;
+        width: 25rem;
+        height: 20rem;
     }
 
 `

@@ -10,6 +10,7 @@ export const Consult = styled.div`
     @media (min-width: 1000px){
         flex-direction: row;
         width: max-content;
+        
 }
 
 `

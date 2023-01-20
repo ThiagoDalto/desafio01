@@ -19,7 +19,7 @@ function Simulador({ data, setData, setErrorMsg }){
         amount,
         installments,
         mdr,
-        days = []
+        days
 
     }) {
         const dados = {
@@ -41,7 +41,7 @@ function Simulador({ data, setData, setErrorMsg }){
             
         })
         .catch((error) => {
-            setData(error.response.data)
+            
             console.log(error)
         })
     }
@@ -65,7 +65,7 @@ function Simulador({ data, setData, setErrorMsg }){
 
             <label htmlFor="days">Dias</label>
             <input type="text" id="days" name="days" placeholder=" [1, 2, ...]" {...register("days")}/>
-            <p className="p_error">{errors.days?.typeError}</p>
+            <p className="p_error">{errors.days?.message}</p>
 
             <button type="submit">Simular</button>
         </Form>
